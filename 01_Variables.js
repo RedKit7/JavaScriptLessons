@@ -41,10 +41,12 @@ console.log(typeof a);
 
 let x = 5, y = 'Cydeo';
 console.log(x+y);
-console.log(x*y); //NaN
+console.log(x*y); //NaN (noAplicable)
 
 const b = 45;
 // can I re-assign a new value to const
 b = 30; // TypeError: Assignment to constant variable.
 console.log(b);
 
+b = 45;
+console.log(b);
