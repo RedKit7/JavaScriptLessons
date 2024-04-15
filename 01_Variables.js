@@ -50,3 +50,16 @@ console.log(b);
 
 b = 45;
 console.log(b);
+
+// let , const and var  -- >  what is those are ? 
+
+/* In programming, "let" and "const" are both used to declare variables. 
+The main difference between them is that let allows the variable to be reassigned multiple times, 
+while const creates a variable that cannot be reassigned after it has been assigned a value.
+
+-----
+
+While "let" and "const" are block-scoped, "var" declarations are either globally scoped or function-scoped. 
+Let variables can be updated but not re-declared, const variables cannot be updated or re-declared, 
+and var variables may both be updated and re-declared inside their scope.
+*/
